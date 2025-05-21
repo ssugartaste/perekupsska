@@ -1,0 +1,4 @@
+venv/
+bot_database.sqlite
+main.env
+__pycache__/
