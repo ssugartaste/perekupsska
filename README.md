@@ -10,12 +10,12 @@ Telegram bots, kas seko jaunam SS.lv sludinajumu publikacijam un automatiski sut
 ---
  Projektu struktura
 perekupsska/
-■■■ db.py # SQLite datu bazes logika (tabulas: users, user_urls, seen_ads)
-■■■ main.py # Galvenais bota kods (Aiogram)
-■■■ test.py # Viegls echo-bots testa vajadibam
-■■■ requirements.txt # Atkaribas
-■■■ main.env # Vides mainigie (nav repozitorija)
-■■■ bot_database.sqlite # Automatiski genereta datu baze
+db.py  SQLite datu bazes logika (tabulas: users, user_urls, seen_ads)
+main.py  Galvenais bota kods (Aiogram)
+test.py  Viegls echo-bots testa vajadibam
+requirements.txt  Atkaribas
+main.env  Vides mainigie (nav repozitorija)
+bot_database.sqlite  Automatiski genereta datu baze
 ---
  Instalacija
 1. Klonet repozitoriju:
