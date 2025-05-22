@@ -40,7 +40,6 @@ class Database:
         conn = sqlite3.connect(self.db_file)
         cursor = conn.cursor()
         cursor.execute("INSERT OR IGNORE INTO users(user_id, active) VALUES (?, 1)", (user_id,))
-        # если пользователь уже есть, но inactive, ставим active=1
         cursor.execute("UPDATE users SET active=1 WHERE user_id=?", (user_id,))
         conn.commit()
         conn.close()
